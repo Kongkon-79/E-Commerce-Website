@@ -41,6 +41,17 @@ span i{
     padding: 0 10px;
     font-size: 25px;
 }
+nav .badge {
+    position: absolute;
+    top: 8px; /* Adjust the top position to move the badge up or down */
+    left: 42%;
+    transform: translateX(-50%);
+    background-color: red; /* Choose the background color for the badge */
+    color: white; /* Choose the text color for the badge */
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
 
 .hero {
     background-image: url('images/assets/asset\ 53.jpeg'); /* Replace with the path to your hero image */
@@ -56,15 +67,23 @@ span i{
     /* margin: 0 auto; */
     color: #000;
 }
-
-.hero h2 {
-    font-size: 2.5em;
+.hero h4{
+    font-size: 1.8rem;
+    text-align: left;
+    margin-left: 50px;
+}
+.hero h1 {
+    font-size: 3em;
     margin-bottom: 20px;
+    text-align: left;
+    margin-left: 50px;
 }
 
 .hero p {
     font-size: 1.2em;
     margin-bottom: 30px;
+    text-align: left;
+    margin-left: 50px;
 }
 
 .cta-button {
@@ -74,9 +93,18 @@ span i{
     color: #fff;
     text-decoration: none;
     font-size: 1.2em;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-right: 370px;
+}
+.cta-button:hover{
+    color: #fff;
+    background-color: #333;
 }
 
+.product-heading{
+    text-align: center;
+    font-size: 40px;
+}
 .products {
     display: flex;
     flex-wrap: wrap;
@@ -90,6 +118,11 @@ span i{
     margin: 10px;
     text-align: center;
 }
+.product span{
+    color: #ff6600;
+    font-size: 22px;
+    font-weight: bold;
+}
 
 footer {
     background-color: #333;
@@ -100,3 +133,4 @@ footer {
     width: 100%;
 
 }
+
